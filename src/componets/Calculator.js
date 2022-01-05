@@ -1,43 +1,64 @@
 import React from 'react';
+import Btn from './button';
 import './calculator.css';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Mainbody extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
   render() {
+    const handleClick = (buttonName) => {
+      const name = buttonName.target.innerText;
+      const { total, next, operation } = calculate(this.state, name);
+      this.setState({ total, next, operation });
+    };
+    const { total, next, operation } = this.state;
+    const display = () => {
+      if (next) {
+        return next;
+      }
+      if (operation) {
+        return operation;
+      }
+      if (total) {
+        return total;
+      }
+      return 0;
+    };
     return (
-      <div className="container">
-        <div className="result">0</div>
-        <table className="calculatorkeys">
-          <tr>
-            <td>AC</td>
-            <td>+/-</td>
-            <td>%</td>
-            <td>/</td>
-          </tr>
-          <tr>
-            <td>7</td>
-            <td>8</td>
-            <td>9</td>
-            <td>x</td>
-          </tr>
-          <tr>
-            <td>4</td>
-            <td>5</td>
-            <td>6</td>
-            <td>-</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>2</td>
-            <td>3</td>
-            <td>+</td>
-          </tr>
-          <tr>
-            <td colSpan={2}>0</td>
-            <td>.</td>
-            <td>=</td>
-          </tr>
-        </table>
+      <div className="wrapper">
+        <input className="input-field" placeholder="0" type="text" maxLength="0" value={display()} onChange={() => ''} />
+        <div className="btn-wrapper">
+          <Btn value="AC" className="btn" click={handleClick} />
+          <Btn value="+" className="btn" click={handleClick} />
+          <Btn value="%" className="btn" click={handleClick} />
+          <Btn value="÷" className="btn light" click={handleClick} />
+        </div>
+        <div className="btn-wrapper">
+          <Btn value="7" className="btn" click={handleClick} />
+          <Btn value="8" className="btn" click={handleClick} />
+          <Btn value="9" className="btn" click={handleClick} />
+          <Btn value="x" className="btn light" click={handleClick} />
+        </div>
+        <div className="btn-wrapper">
+          <Btn value="4" className="btn" click={handleClick} />
+          <Btn value="5" className="btn" click={handleClick} />
+          <Btn value="6" className="btn" click={handleClick} />
+          <Btn value="-" className="btn light" click={handleClick} />
+        </div>
+        <div className="btn-wrapper">
+          <Btn value="1" className="btn" click={handleClick} />
+          <Btn value="2" className="btn" click={handleClick} />
+          <Btn value="3" className="btn" click={handleClick} />
+          <Btn value="+" className="btn light" click={handleClick} />
+        </div>
+        <div className="btn-wrapper">
+          <Btn value="0" className="btn last" click={handleClick} />
+          <Btn value="." className="btn dot" click={handleClick} />
+          <Btn value="=" className="btn light-end" click={handleClick} />
+        </div>
       </div>
     );
   }
