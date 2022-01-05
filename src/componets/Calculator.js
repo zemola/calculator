@@ -5,7 +5,7 @@ import './calculator.css';
 class Mainbody extends React.Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <div className="result">0</div>
         <table className="calculatorkeys">
           <tr>

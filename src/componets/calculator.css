@@ -1,11 +1,11 @@
-.Mainbody {
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-  
+
 .result {
   background-color: rgb(189, 185, 216);
   width: 390px;
@@ -17,24 +17,23 @@
   color: #fff;
   font-size: 20px;
 }
-  
+
 table {
   width: 400px;
   border: 1px solid rgb(160, 157, 157);
-  text-align: center;
 }
-  
+
 tr {
   border: 1px solid rgb(160, 157, 157);
   height: 40px;
   background-color: #ebe8e8;
 }
-  
+
 td {
   height: 40px;
   width: 50px;
 }
-  
+
 td:last-child {
   background-color: #ffa500;
 }

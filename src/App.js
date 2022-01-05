@@ -6,7 +6,7 @@ import Mainbody from './componets/Calculator';
 class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className="general-wrapper">
         <h1>Calculator</h1>
         <Mainbody />
       </div>
