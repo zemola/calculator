@@ -1,6 +1,7 @@
 import React from 'react';
 import Btn from './button';
 import './calculator.css';
+import calculate from '../logic/calculate';
 
 // eslint-disable-next-line react/prefer-stateless-function
 class Mainbody extends React.Component {
@@ -8,6 +9,7 @@ class Mainbody extends React.Component {
     super(props);
     this.state = {};
   }
+
   render() {
     const handleClick = (buttonName) => {
       const name = buttonName.target.innerText;
