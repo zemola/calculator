@@ -2,80 +2,80 @@
 Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations, Read a random math-related quote.
 
 
-# Getting Started with Create React App
+## VIEW
+![screenshot](calculator.PNG)SCREENSHOT OF DESKTOP VERSION )
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Built With
 
-In the project directory, you can run:
+- HTML
+- CSS
+- React
+- Git and Github
+- Technologies used
 
-### `npm start`
+## Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href= "https://zemola.github.io/calculator/public/">Calculator</a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+**Instructions on how to access my project locally.**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ To Access my project locally please follow either of the two steps listed below ;
 
-### `npm run build`
+STEP 1
+1. Enter this url:  https://github.com/zemola/calculator.git in your web browser.
+2. Once opened navigate to the top left level of the project a green code download button will be visible on the righthand side.
+3. click on the green button with name "Code", Select download Zip option from drop down menu.
+4. Once the download is extract the zip file into any folder of your choice on your system.
+5. open the project on VS Code by typing "code ." on your folder directory
+6. enter  $ cd calculator
+7. Install npm packages, run: npm i or npm install
+8. Then run the server: npm start
+9. you will be able to access my project locally.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+STEP 2
+1. Open command prompt
+2. go to the designated folder where you want to clone the repository to.
+3. enter  git clone https://github.com/zemola/calculator.git
+4. enter  $ cd calculator
+5. Install npm packages, run: npm i or npm install
+6. Then run the server: npm start
+7. you will be able to access my project locally.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- You should have basic knowledge of HTML
+- You should have basic knowledge of CSS
+- You should have basic knowledge of React
+- Also, a basic knowledge of git and github
+- A code editor: I used VScode for this project but you can use any code editor of your choice
 
-## Usage
-Clone project, run in your terminal:
+### Setup
+- follow steps on this link to set up VScode code editor: [setup vscode](https://www.freecodecamp.org/news/how-to-set-up-vs-code-for-web-development/)
 
-$ git clone https://github.com/zemola/calculator.git
+### Install
+[download](https://code.visualstudio.com/download) VScode.
+[Watch this video](https://www.youtube.com/watch?v=MlIzFUI1QGA) on how to install VScode on windows
 
-Open the cloned project in your code editor and run:
+## Author
 
-$ cd Math-magicians
+👤 **Olatunji Azeem**
 
-Install npm packages, run:
+- GitHub: [@githubhandle](https://github.com/zemola)
+- Twitter: [@twitterhandle](https://twitter.com/zemolat)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/olatunjiazeem/)
 
-$ npm i or npm install
+## 🤝 Contributing
 
-Then run the server:
+Contributions, issues, and feature requests are welcome!
 
-$ npm start
+Feel free to check the [issues page](https://github.com/zemola/calculator/issues).
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
+Give a ⭐️ if you like this project!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📝 License
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
