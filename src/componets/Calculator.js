@@ -3,7 +3,6 @@ import Btn from './button';
 import './calculator.css';
 import calculate from '../logic/calculate';
 
-// eslint-disable-next-line react/prefer-stateless-function
 class Mainbody extends React.Component {
   constructor(props) {
     super(props);
@@ -34,7 +33,7 @@ class Mainbody extends React.Component {
         <input className="input-field" placeholder="0" type="text" maxLength="0" value={display()} onChange={() => ''} />
         <div className="btn-wrapper">
           <Btn value="AC" className="btn" click={handleClick} />
-          <Btn value="+" className="btn" click={handleClick} />
+          <Btn value="+/-" className="btn" click={handleClick} />
           <Btn value="%" className="btn" click={handleClick} />
           <Btn value="÷" className="btn light" click={handleClick} />
         </div>
