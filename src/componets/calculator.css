@@ -6,6 +6,16 @@
   border-color: bisque;
 }
 
+.main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub-title{
+  margin: 0 10%;
+  font-size: 25px;
+}
+
 .btn-wrapper {
   width: 100%;
   display: flex;
