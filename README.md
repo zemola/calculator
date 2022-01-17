@@ -16,7 +16,7 @@ Math magicians" is a website for all fans of mathematics. It is a Single Page Ap
 
 ## Live Demo
 
-<a href= "zemola-calculator.netlify.app">Calculator</a>
+[Live Demo Link](https://zemola-calculator.netlify.app)
 
 
 **Instructions on how to access my project locally.**
